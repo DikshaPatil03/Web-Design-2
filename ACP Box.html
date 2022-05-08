@@ -1,0 +1,28 @@
+<html>
+<script type="text/javascript">
+function dialogouesbox(){
+alert("Thia is a Alert Dialogoues box");
+}
+function getConfirmation(){
+var retVal=confirm("Do you want to continue");
+if(retVal==true)
+{
+  document.write("Yes you want continue");
+  return true;
+}
+else
+{
+ document.write("No does not want to continue");
+ return false;
+}}
+function getprompt(){
+var retVal=prompt("Enter your Name","your Name here");
+document.write("Your Name is:"+retVal);
+}
+</script>
+<body>
+Alert Box   <input type="button" value="Alert Box" onClick="dialogouesbox()"><br><br>
+Confirmation Box    <input type="button" value="Comfirm Box" onClick="getConfirmation()"><br><br>
+Prompt Box    <input type="button" value="Prompt" onClick="getprompt()">
+</body>
+</html>
