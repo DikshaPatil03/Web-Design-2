@@ -1,0 +1,16 @@
+<html>
+<script type="text/javascript">
+function cube()
+{
+ var cube,a;
+ a=eval(document.getElementById("num").value)
+ cube=a*a*a;
+ document.getElementById("result").value=cube;
+}
+</script>
+<body>
+<form>
+Enter the Numbet<input type="text" id="num"><br><br>
+<input type="button" value="check" id="btn" onclick="cube()"><br><br>
+result<input type="text" id="result">
+</html>
