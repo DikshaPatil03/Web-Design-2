@@ -1,0 +1,21 @@
+<html>
+<script type="text/javascript">
+function check_email()
+{
+var email_add=document.getElementById("email").value
+if((email_add.indexOf("@")<=1)&&(email_adf.lastIndexOf(".")<=2));
+{
+ alert("this is not valid emali ,please try again");
+ return false;
+}
+else
+{
+ return true;
+}
+}
+</script>
+<body>
+Enter the email<input type="text" id="email"><br><br>
+<input type="button" Value="Check Email" onclick="return check_email()">
+</body>
+</html>
